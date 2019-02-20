@@ -1,0 +1,25 @@
+To run create_names:
+
+1. Save excel file as comp_names.xlsx
+2. Enter these into terminal:
+	cd ~/names_and_numbers
+	python create_names_000.py ——OR—— python create_names_0000.py
+
+
+Possible errors:
+
+IndexError: array index out of range - You don't have enough columns in all your sheets
+Asteriks: Replace ~* in excel with nothing for the entire workbook
+
+To find the source of an error:
+ - Check the last created folder and file in Names to see what went wrong
+
+Note: If you need to ignore the first sheet, change the 0 in the line 
+“for index in range(0, comp_names.nsheets):” to a 1 or delete the first sheet.
+
+If running on a computer for the first time:
+Enter these commands into terminal:
+	sudo easy_install pip
+	sudo pip install xlrd
+	sudo pip install unidecode
+

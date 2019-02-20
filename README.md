@@ -7,3 +7,9 @@ Inspired as the computational method from the theory in [this paper](https://ac.
 
 ## Crossword Possibilities
 Stuck on a word in a crossword and don't want to look it up? This method definitiely isn't cheating.... enter the characters you know, and all the english words matching that will be returned.
+
+## Names and Numbers
+A commissioned project that takes in an excel file of the following format:
+| ## | First Name | Last Name | Any other columns... | 
+A folder system is created, with subfolders for each page and subfolders within those folders concatenating the first three columns of each row.
+This program is used on a weekly basis to generate a file system for athlete photographs, and was created for the layman to use (and troubleshoot) easily. Simply follow the instructions provided!
